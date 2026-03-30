@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+    background-image: url(imagenes/fondo.gif);
+}
+
 header {
     position: relative;
 }
@@ -21,5 +25,97 @@ header h1 {
 }
 
 nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;   /* quita los puntos */
+    padding: 0;
+    margin: 0;
+    background-color: #4c00827e;
+}
+
+nav ul li {
+    border-style: solid;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+
+}
+
+#informacion {
+    background-color: blueviolet;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5%;
+    box-shadow: 0 0 20px #00bbff;
+}
+
+#informacion img {
+    display: block;
+    margin: 20px auto;
+    height: 200px;
+    width: 100%;
+    border-radius: 20%;
+    box-shadow: 0 0 20px #00bbff;
+}
+
+#informacion h4 {
+    font-size: 35px;
+    color: black;
+    text-shadow: 0 0 10px #00bbff;
+}
+
+#informacion p {
+    font-size: 25px;
+    color: black;
+    text-shadow: 0 0 10px #00bbff;
+}
+
+#motivacion {
+    background-color: blueviolet;
+    height: 300px;
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3%;
+    box-shadow: 0 0 20px #00bbff;
+}
+
+#motivacion p {
+    font-size: 25px;
+    color: black;
+    text-shadow: 0 0 10px #00bbff;
+}
+
+#motivacion img {
+    display: block;
+    margin: 20px auto;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00bbff;
+}
+
+#foto{
+    height: 300px;
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3%;
+    box-shadow: 0 0 20px #00bbff;
 }
