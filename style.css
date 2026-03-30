@@ -119,3 +119,27 @@ main {
     border-radius: 3%;
     box-shadow: 0 0 20px #00bbff;
 }
+
+main div ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+}
+
+main div ul li {
+    font-size: 40px;
+    width: 100%;
+    background-color: rgba(255, 0, 183, 0.591);
+    border: solid;
+}
+
+main div ul li img {
+    margin: 10px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+main img {
+    margin: 10px auto;
+    border-radius: 20px;
+}
